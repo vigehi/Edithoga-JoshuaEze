@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 20px 20px 0 20px;
+}
+nav #nav-bar{
+   width: 150px; 
+}
+
+nav #nav-bar a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-size: 1.5em;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#email{
+    height: 35px;
+    width: 300px;
+    padding: 10px;
+}
+
+#submit-btn{
+    height: 30px;
+    width: 150px;
+    background-color: yellow;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#submit-btn:hover{
+    background-color: orange;
+    transition: .5s ease-in-out;
+}
